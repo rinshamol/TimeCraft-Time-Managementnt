@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TimeCraft</string>
+    <string name="reg">Register</string>
+    <string name="name">Enter Name</string>
+    <string name="enter_email1">Enter email</string>
+    <string name="enter_password1">Enter Password</string>
+    <string name="confirm_password">Re-enter password</string>
+    <string name="reg2">Register</string>
+    <string name="already_have_an_account">already have an account?</string>
+    <string name="login1">login</string>
+    <string name="sign_in">Sign-in</string>
+    <string name="register">Sign-up</string>
+    <string name="log_in">Log in</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">"Log in "</string>
+    <string name="don_t_have_an_account">don\'t have an account?</string>
+    <string name="home">Home</string>
+    <string name="log_out">Log Out</string>
+    <string name="add">add</string>
+    <string name="this_is_task1">This is Task1</string>
+    <string name="_11_3_2024">11–3-2024</string>
+    <string name="set_due_date">Set Due Date</string>
+    <string name="write_your_task_here">Write your Task here....</string>
+    <string name="save">Save</string>
+    <string name="todo">TODO</string>
+    <string name="browse">browse</string>
+    <string name="set_due_time">due time</string>
+</resources>

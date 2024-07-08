@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "431469562520",
+    "project_id": "timecraft2-122b3",
+    "storage_bucket": "timecraft2-122b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431469562520:android:66dc66367f50aa3d9a9eed",
+        "android_client_info": {
+          "package_name": "com.example.timecraft2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5976DzcsnSZPI7X7dMwkGJkAsT7Mm-KQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

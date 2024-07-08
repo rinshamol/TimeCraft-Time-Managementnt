@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img2"
+    android:padding="16dp"
+    tools:context=".Register">
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="105dp"
+        android:fontFamily="@font/bangers"
+        android:text="@string/reg"
+        android:textColor="@android:color/system_accent1_300"
+        android:textSize="40sp"
+        android:textStyle="italic" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home"
+        android:layout_marginTop="16dp"
+        android:hint="@string/enter_email1"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#090707" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextEmail"
+        android:layout_marginTop="16dp"
+        android:hint="@string/enter_password1"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPassword"
+        android:layout_marginTop="16dp"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000" />
+ <ProgressBar
+     android:id="@+id/progressBar"
+     android:visibility="gone"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextConfirmPassword"
+        android:layout_marginTop="24dp"
+        android:text="@string/reg2" />
+    <TextView
+        android:id="@+id/textLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/buttonRegister"
+        android:layout_marginTop="16dp"
+        android:text="@string/already_have_an_account"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/linkLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/textLogin"
+        android:layout_below="@id/buttonRegister"
+        android:layout_marginTop="16dp"
+        android:text="@string/login1"
+        android:textColor="@android:color/holo_blue_light"
+        android:textStyle="italic" />
+</RelativeLayout>
